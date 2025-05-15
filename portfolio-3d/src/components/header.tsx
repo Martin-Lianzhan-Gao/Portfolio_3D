@@ -1,8 +1,9 @@
 import React from "react";
+
 const Header = () => {
     return (
-        <div className="flex flex-row justify-center w-full backdrop-blur-sm">
-            <ul className="flex flex-row justify-between px-4 py-4 w-full max-w-screen-xl min-w-screen-md">
+        <div className="flex flex-row justify-center w-full backdrop-blur-sm fixed">
+            <ul className="flex flex-row justify-between px-4 py-4 w-full max-w-screen-xl min-w-screen-md text-amber-50">
                 <li>HOME</li>
                 <li>EXPERIENCE</li>
                 <li>PROJECT</li>
